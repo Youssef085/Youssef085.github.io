@@ -315,3 +315,17 @@ i {
   height: 300px;
   width: 300px;
 }
+
+.parrallax {
+  /* The image used */
+    background-image: url("hire-me.jpg");
+    margin-top: 50px;
+    /* Set a specific height */
+    height: 500px;
+    opacity: 0.9;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
